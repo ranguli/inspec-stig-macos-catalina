@@ -10,7 +10,7 @@ sudo inspec exec inspec-stig-macos-catalina
 
 ## Completeness
 
-Below are the Finding IDs for the macOS Catalina STIG and their completeness. The current coverage is 9 / 108 (8%). PRs are welcome!
+Below are the Finding IDs for the macOS Catalina STIG and their completeness. The current coverage is 17 / 108 (16%). PRs are welcome!
 
 * [ ] V-225118
 * [ ] V-225119
@@ -47,13 +47,13 @@ Below are the Finding IDs for the macOS Catalina STIG and their completeness. Th
 * [ ] V-225150
 * [ ] V-225151
 * [x] V-225152
-* [ ] V-225153
+* [x] V-225153
 * [ ] V-225154
 * [ ] V-225155
-* [ ] V-225156
+* [x] V-225156
 * [ ] V-225157
-* [ ] V-225158
-* [ ] V-225159
+* [x] V-225158
+* [x] V-225159
 * [ ] V-225160
 * [ ] V-225161
 * [ ] V-225162
@@ -119,4 +119,4 @@ Below are the Finding IDs for the macOS Catalina STIG and their completeness. Th
 * [ ] V-233776
 * [ ] V-233777
 * [ ] V-233778
-* [ ] V-234700
+* [x] V-234700
