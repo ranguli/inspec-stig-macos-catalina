@@ -11,12 +11,8 @@ control 'V-234700' do
   tag stig_id: 'AOSX-15-002001'
   tag severity: 'medium'
 
-  cmd = 'security authorizationdb read system.preferences > /tmp/system_preferences.plist'
-
+  cmd = 'security authorizationdb read system.preferences | grep -A1 shared'
   describe command(cmd) do
-  end
-
-  describe plist('/tmp/system_preferences.plist') do
-    its('shared') {should eq false }
+    its('stdout.strip') { should match(/false/i) }
   end
 end
