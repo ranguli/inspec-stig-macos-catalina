@@ -5,12 +5,12 @@ Chef InSpec profile for assessing compliance with DISA STIGs for macOS Catalina
 You can run the profile however you wish. To test it out locally on a macOS machine running Catalina, clone the repo and run:
 
 ```
-sudo inspec inspec-stig-macos-catalina
+sudo inspec exec inspec-stig-macos-catalina
 ```
 
 ## Completeness
 
-Below are the Finding IDs for the macOS Catalina STIG and their completeness. The current coverage is 9 / 108 (8%). PRs are welcome! 
+Below are the Finding IDs for the macOS Catalina STIG and their completeness. The current coverage is 9 / 108 (8%). PRs are welcome!
 
 * [ ] V-225118
 * [ ] V-225119

@@ -1,0 +1,17 @@
+name: inspec-stig-macos-catalina
+title: STIGs for macOS Catalina
+maintainer: Joshua Murphy
+copyright: Joshua Murphy
+copyright_email: hello@joshmurphy.ca
+license: Apache-2.0
+summary: InSpec profile for assessing compliance with DISA STIGs for macOS Catalina
+version: 0.0.1
+supports:
+  - platform-family: darwin
+
+inputs:
+  - name: antivirus_daemon
+    description: The name of the antivirus daemon we should look for. This will depend on your environment.
+    type: String
+    required: true
+    value: jamfd
